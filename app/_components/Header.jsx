@@ -101,9 +101,9 @@ const Header = () => {
                   <li className='hover:bg-slate-200 p-3 rounded-md cursor-pointer'>
                     <MdOutlineAccountCircle size={20} color="#219874" />
                   </li>
-                  <li className='hover:bg-slate-200 p-3 rounded-md cursor-pointer'>
+                  <Link href={'/myBooking'} className='hover:bg-slate-200 p-3 rounded-md cursor-pointer'>
                     <MdOutlineBookmarks size={20} color="#219874" />
-                  </li>
+                  </Link>
                   <LogoutLink className='hover:bg-slate-200 p-3 rounded-md cursor-pointer'>
                     <MdOutlineLogout size={20} color="#219874" />
                   </LogoutLink>

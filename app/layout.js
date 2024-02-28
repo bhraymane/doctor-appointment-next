@@ -33,7 +33,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${nico.variable} ${poppins.variable}`} >
-      <body className={`${inter.className}` } >
+      <body className={`${inter.className} min-h-screen ` } >
         
         <Header  />
         {children}

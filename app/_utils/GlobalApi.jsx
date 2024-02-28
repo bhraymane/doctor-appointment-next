@@ -4,7 +4,7 @@ import axios from 'axios'
 const API_KEY=process.env.NEXT_PUBLIC_STRAPI_API_KEY
 
 const axiosClinet =axios.create({
-    baseURL:'http://localhost:1337/api',
+    baseURL:'https://doctor-appointment-strapi.onrender.com/api',
     headers:{
         'Authorization':`Bearer ${API_KEY}`
     }

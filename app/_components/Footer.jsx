@@ -4,7 +4,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 font-poppins mt-6">
+    <footer className="bg-gray-100 font-poppins mt-6 sticky top-[100%] ">
         <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
             <div className="flex justify-center text-teal-600">
                 <img src="/LOGO.svg" alt="logo" width={75} />

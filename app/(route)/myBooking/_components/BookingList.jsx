@@ -22,7 +22,7 @@ const BookingList = ({booklist,expired,updateRecord}) => {
     })
   }
   return (
-    <div>
+    <div className=' h-auto'>
       {booklist.map((item,index)=>(
         <div className='flex justify-between gap-3 p-3 mt-5 border-solid border-2 border-sky-500-15 rounded-xl max-md:flex-col '>
           <div className='flex gap-4  '>
